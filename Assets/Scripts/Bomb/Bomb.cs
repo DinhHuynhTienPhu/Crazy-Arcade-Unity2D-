@@ -194,4 +194,19 @@ public class Bomb : MonoBehaviour
     FirstPlayerInfo.iSetBubbleCount -= 1;
     Destroy(CenterImage);
   }
+  private void OnTriggerExit2D(Collider2D other)
+  {
+    if (other.tag == "Player")
+    {
+      Debug.Log("Player Exit");
+      GetComponent<Collider2D>().isTrigger = false;
+    }
+  }
+  private void OnCollisionEnter2D(Collision2D other)
+  {
+    if (other.gameObject.tag == "Player")
+    {
+      Debug.Log("Player Enter");
+    }
+  }
 }
