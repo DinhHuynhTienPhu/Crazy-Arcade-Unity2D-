@@ -7,5 +7,5 @@ public static class FirstPlayerInfo
   public static float fSpeed;
   public static int iBubbleCount = 2;
   public static int iBubbleLengthCount;
-  public static int iSetBuubleCount = 0;
+  public static int iSetBubbleCount = 0;
 }

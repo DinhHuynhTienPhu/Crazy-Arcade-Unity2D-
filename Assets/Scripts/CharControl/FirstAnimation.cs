@@ -55,7 +55,7 @@ public class FirstAnimation : MonoBehaviour
 
   void Update()
   {
-    if (FirstPlayerInfo.iBubbleCount != FirstPlayerInfo.iSetBuubleCount)
+    if (true)//FirstPlayerInfo.iBubbleCount != FirstPlayerInfo.iSetBuubleCount)
       if (Input.GetKeyDown(KeyCode.Z))
       {
         GameObject bombObj = (GameObject)GameObject.Instantiate(Resources.Load("Bomb"));
@@ -65,7 +65,7 @@ public class FirstAnimation : MonoBehaviour
         bomb.CreateBomb(this.gameObject.transform.position,
             this.gameObject.transform.rotation,
             FirstPlayerInfo.iBubbleLengthCount);
-        FirstPlayerInfo.iSetBuubleCount += 1;
+        FirstPlayerInfo.iSetBubbleCount += 1;
       }
 
     if (Input.GetKey(KeyCode.G))

@@ -57,6 +57,7 @@
      <Compile Include="Assets\Scripts\CharControl\FirstController.cs" />
      <Compile Include="Assets\Scripts\CharControl\SecondAnimation.cs" />
      <Compile Include="Assets\Scripts\CharControl\SecondController.cs" />
+     <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\Loby\BazziOnOff.cs" />
      <Compile Include="Assets\Scripts\Loby\BazziOnOff2.cs" />
      <Compile Include="Assets\Scripts\Loby\CappiOnOff.cs" />
